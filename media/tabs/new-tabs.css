@@ -1,0 +1,36 @@
+#toc{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Arial;
+width: 100%;
+overflow: hidden;
+margin-bottom: 1em;
+border: 1px solid #625e00;
+border-width: 1px 0;
+background: black url(blockdefault.gif) center center repeat-x;
+}
+
+#toc li{
+display: inline;
+}
+
+#toc li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+
+#toc li a:visited{
+	color: white;
+}
+
+#toc li a:hover, #toc li .current{
+	color: white;
+	background: transparent url(blockactive.gif) center center repeat-x;
+}
+
+
+

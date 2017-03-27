@@ -1,0 +1,55 @@
+
+
+#qresult{width:100%;height:500px;overflow:auto;}
+.querytable{font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size:14px;text-align:left;border-collapse:collapse;border:1px solid #69c;margin:20px;}
+.querytable th{font-weight:normal;font-size:14px;color:#039;border-bottom:1px dashed #69c;padding:12px 17px;}
+.querytable td{color:#669;padding:7px 17px;}
+.querytable tbody tr:hover td{color:#339;background:#d0dafd;}
+
+
+#tablist{padding: 3px 0;margin-left: 0;margin-bottom: 0;margin-top: 0.1em;font: bold 12px Verdana;text-align:center;}
+#tablist li{list-style: none;display: inline;margin: 0;}
+#tablist li a{	padding: 3px 0.5em;margin-left: 3px;border: 1px solid #778;}
+#tablist li a.current{	background-color: #D0D0D0;text-align:center;}
+.tabcontent{display:none;}
+#button1, #button2, #button3, #button4 {	padding:1em;}
+
+textarea#debugt {width: 100%;height: 120px;border: 3px solid #cccccc;padding: 5px;font-family: Tahoma, sans-serif;overflow: auto;}
+#qbutton{position: relative;left: 93%;padding:1em;}
+
+
+#awrbutton,#anmbutton,#odbutton,#azbutton{padding:1em;}
+
+#sc1,#sc2,#sc3{margin-top:20px;text-align:left; width:50%;font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size:14px;}
+#level1,#level2,#level3{padding:15px;}
+.graph-container{float:left;padding:5px;}
+#monitor{overflow:auto;}
+
+.thresform{padding:15px;width:100%;}
+.labthres{padding:5px;}
+
+#awreport{width:100%;height:500px;overflow:auto;}
+#almsg{border-style:dotted;}
+#noalr{font: bold 15px Verdana;text-align:center;}
+
+#odreport{font: bold 15px Verdana;text-align:center;}
+#loginForm{padding:10px;overflow:hidden;}
+
+#logres{ font-size: 1.5em;  color: red;} 
+
+.odetails{width:100%;font-weight:normal;font-size:16px;color:#737CA1;text-align:center;}
+.mtitle{font-weight:bold;color:#41627E;}
+
+#msvalue,#schemar{color:#7E3517;font-size:14px;}
+
+
+.colmask {position:relative;	clear:both;	float:left;	width:100%;height:500px;overflow:auto;}
+.colleft {float:left;width:100%;	position:relative;}
+.col1,.col2,.col3 {float:left;position:relative;	padding:0 0 1em 0;overflow:auto;height:475px;}
+
+.leftmenu {	background:#fff;}
+.leftmenu .colleft {	right:75%;background:#f4f4f4;}
+.leftmenu .col1 { width:71%;	left:102%;}
+.leftmenu .col2 { width:21%;left:6%;overflow:hidden}
+
+
